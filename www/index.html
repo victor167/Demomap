@@ -14,22 +14,9 @@
 </head>
 
 <body>
-    <div id="menuView"><ul id="menu"></ul></div>
-    <div id="header">
-        <div id="menuButton"></div><h3>map.getMap()</h3>
-    </div>
-
-    <div id="contentView">
-        <div id="contentsFrame">
-
             <section class="demo">
-                <h3>Add HTML elements on the map</h3>
-                <p>
-                    You can put any HTML elements on the map.
-                </p>
                 <div class="map" id="map_canvas3" style="position:relative">
-                    <span class="smallPanel"><button>HTML button1</button></span>
-                    <span class="smallPanel" style="position:absolute;bottom:1em;right:1em;"><button>HTML button2</button></span>
+                    
                 </div>
                 <pre class="prettyprint">var div = document.getElementById("map_canvas3");
 var map = plugin.google.maps.Map.getMap(div);
@@ -46,9 +33,6 @@ button.addEventListener('click', function() {
 });
 </pre>
             </section>
-        </div>
-
-    </div>
 </body>
 
 </html>

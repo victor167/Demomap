@@ -15,7 +15,7 @@ function ready(){
 function map_ready(){
   map.moveCamera({
       target: {lat: -12.0601566, lng: -77.1552091},
-      zoom: 9
+      zoom: 12
     }, function() {
       //alert("Camera target has been changed");
     });
